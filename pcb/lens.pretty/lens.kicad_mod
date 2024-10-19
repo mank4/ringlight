@@ -1,0 +1,145 @@
+(footprint "lens"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d14643cf-1c63-45f6-89e2-b3952c326f4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "lens"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "562aa88d-0672-4439-89aa-be461ccd41a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9fc1474-e54e-4a74-bedf-0a9ad74f98ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8c0260e-c6ae-4cb0-a422-7fc281040cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "130d6d8b-e7e9-49e5-95be-3ad15eca3963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end -29 -29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "6fc04830-7f30-4ed6-8433-9a7cce84460f")
+	)
+	(fp_line
+		(start 0 0)
+		(end -29 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "a1a2c249-bfc3-40c3-944d-d772fd723cbc")
+	)
+	(fp_line
+		(start 0 0)
+		(end 29 -29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "09933d61-cd57-452a-9e6a-2247524fb6c3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 29 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "239bf80f-b357-44a8-ade1-12261c6f70a5")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9d1edc87-ebc1-4744-a2a5-b93efa171377")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8dd3ae0-26be-4bbe-be7e-2cceef0c5e08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/lens.step"
+		(opacity 0.6900)
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -37.5)
+		)
+	)
+)
